@@ -1,0 +1,388 @@
+* {box-sizing:border-box}
+.Topnav {
+    
+    background-color: #333;
+    overflow: hidden;
+  }
+    .Topnav a {
+     float: left;
+     display: block;
+     color: #f2f2f2;
+     text-align: center;
+     padding: 10px 16px;
+     text-decoration: none;
+     font-size: 17px;
+     }
+         .Topnav a:hover {
+          background-color: #ddd;
+          color: black;
+         }
+  
+            .Topnav a.active {
+              background-color: rgb(0, 0, 0);
+              color: white;
+            }
+            
+                  .Topnav .icon {
+                  display: none;
+                 }
+
+                 .footer {
+                  position: fixed;
+                  left: 0;
+                  bottom: 0;
+                  width: 100%;
+                  background-color:black;
+                  color: white;
+                  text-align: left;
+                }
+/************************************************GENERAL FOR 3 PAGES***************************************************/                
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+  .load{
+    animation: slide 2s;
+  }
+    .slider{
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      width: 100%;
+      height: 100vh;
+      animation: slide 15s infinite;
+    }
+      .content{
+        color:#ffcc66;
+        width: 100%;
+        height: 100%;
+      }
+        .principal{
+          left: 50%;
+          top: 50%;
+          position: absolute;     
+          background-color: rgb(0, 0, 0),0.5;  
+          letter-spacing: 5px; 
+        }
+          .principal h1{
+            font-size: 70px;
+            margin-bottom: 20px;
+          }
+
+@keyframes slide{
+  0%{
+      background-image: url('ATL.jpg');
+  }
+    10%{
+      background-image: url('ATL.jpg');
+    }
+    10.1%{
+      background-image: url('meekmilly.jpg');
+  }
+    20%{
+      background-image: url('meekmilly.jpg');
+    }
+    20.01%{
+      background-image: url('Burna.jpg');
+  }
+    30%{
+      background-image: url('Burna.jpg');
+    }
+    30.01%{
+      background-image: url('Kehlani.jpg');
+  }
+    40%{
+      background-image: url('Kehlani.jpg');
+    }
+    40.01%{
+      background-image: url('migos.jpg');
+  }
+    50%{
+      background-image: url('migos.jpg');
+    }
+    50.01%{
+      background-image: url('ricch.jpg');
+  }
+    60%{
+      background-image: url('ricch.jpg');
+    }
+    60.01%{
+      background-image: url('cardi.jpg');
+  }
+    70%{
+      background-image: url('cardi.jpg');
+    }
+    70.01%{
+      background-image: url('camila.jpg');
+  }
+    80%{
+      background-image: url('camila.jpg');
+    }
+    80.01%{
+      background-image: url('snoop.jpg');
+  }
+    90%{
+      background-image: url('snoop.jpg');
+    }
+    90.01%{
+      background-image: url('edd.jpg');
+  }
+    100%{
+      background-image: url('edd.jpg');
+    }
+}
+/************************************************Homepage Slideshow***************************************************/  
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style social media icons */
+.icon-bar a:hover {
+  background-color: #808080;
+}
+
+.facebook {
+  background: #000000;
+  color: white;
+}
+
+.twitter {
+  background: #000000;
+  color: white;
+}
+
+.spotify {
+  background: #000000;
+  color: white;
+}
+
+.instagram {
+  background: #000000;
+  color: white;
+}
+
+.youtube {
+  background: #000000;
+  color: white;
+}
+/************************************************Social media icons ***************************************************/  
+body {
+  background-image: url('ground copy.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+/************************************************Artist page background ***************************************************/
+
+.container
+{
+  width: 1280px;
+  margin: 70px auto 0;
+  display: flex ;
+  flex-direction: row;
+  flex-wrap: wrap;
+} 
+.container .box
+{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #ff0;
+    margin: 10px;
+    box-sizing: border-box ;
+    display: inline-block ;
+}
+.container .box .imgBox
+{
+  position: relative;
+  overflow: hidden;
+}
+.container .box .imgBox img
+{
+  max-width: 100% ;
+  transition: transfrom 2s;
+}
+.container .box:hover .imgBox img
+{
+    transform: scale(1.2);
+}
+.container .box .details
+{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: rgb(0, 0, 0, .8);
+  transform: scaleY(0);
+  transition: transform 5s ;
+}
+.container .box:hover .details
+{
+
+  transform: scaleY(1);
+}
+.container .box .details .content
+{
+  position: absolute;
+  top: 50% ;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+.container .box .details .content h2
+{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: #ff0;
+}
+.container .box .details .content p
+{
+  margin: 10px 0 0;
+  padding: 0;
+}
+/************************************************Artist Profile Boxes ***************************************************/
+.container2
+{
+  width: 1280px;
+  margin: 70px auto 0;
+  display: flex ;
+  flex-direction: row;
+  flex-wrap: wrap;
+} 
+.container2 .box
+{
+    position: relative;
+    width: 300px;
+    height: 300px;
+    background: #ff0;
+    margin: 10px;
+    box-sizing: border-box ;
+    display: inline-block ;
+}
+.container2 .box .imgBox
+{
+  position: relative;
+  overflow: hidden;
+}
+.container2 .box .imgBox img
+{
+  max-width: 100% ;
+  transition: transfrom 2s;
+}
+.container2 .box:hover .imgBox img
+{
+    transform: scale(1.2);
+}
+.container2 .box .details
+{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  bottom: 10px;
+  right: 10px;
+  background: rgb(0, 0, 0, .8);
+  transform: scaleY(0);
+  transition: transform 5s ;
+}
+.container2 .box:hover .details
+{
+
+  transform: scaleY(1);
+}
+.container2 .box .details .content
+{
+  position: absolute;
+  top: 50% ;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 15px;
+  color: white;
+}
+.container2 .box .details .content h2
+{
+  margin: 0;
+  padding: 0;
+  font-size: 20px;
+  color: #ff0;
+}
+.container2 .box .details .content p
+{
+  margin: 10px 0 0;
+  padding: 0;
+}
+
+/************************************************Artist Profile Boxes 2***************************************************/
+.header {
+  padding: 25px;
+  text-align: left;
+  background: black;
+  color: gold;
+  font-size: 30px;
+}
+/************************************************Latest releases header***************************************************/
+div.gallery {
+  margin: 8px;
+  border: 1px solid #ccc;
+  float: right;
+  width: 300px;
+}
+
+div.gallery:hover {
+  border: 1px solid gold;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: rgb(255, 178, 11);
+}
+/************************************************Release Gallery***************************************************/
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+}
+
+a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+}
+
+.next {
+  background-color: gold;
+  color: white;
+}
+
+.round {
+  border-radius: 50%;
+}
+/************************************************Next and Previous buttomns***************************************************/
