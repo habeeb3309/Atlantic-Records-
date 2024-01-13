@@ -5,14 +5,6 @@ Project Title: Atlantic Records Website with Slideshow
 Description:
 This GitHub repository hosts a modified version of the Atlantic Records website, enhanced with a unique twist—a dynamic image slideshow. Created using HTML and CSS, this project replicates the visual design and layout of the official Atlantic Records website while introducing an engaging image slideshow feature.
 
-
-Certainly! Here's a brief GitHub description for your customized Atlantic Records website project with a slideshow added:
-
-Project Title: Atlantic Records Website with Slideshow
-
-Description:
-This GitHub repository hosts a modified version of the Atlantic Records website, enhanced with a unique twist—a dynamic image slideshow. Created using HTML and CSS, this project replicates the visual design and layout of the official Atlantic Records website while introducing an engaging image slideshow feature.
-
 Key Features:
 
 HTML5 and CSS3 for replicating the Atlantic Records website's structure and style.
